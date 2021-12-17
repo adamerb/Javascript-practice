@@ -1,0 +1,24 @@
+
+// Write a function that reverses a string using only javascript methods. 
+
+const lyrics = "I put my thing down flip it and reverse it"
+const missyElliot = () =>{
+    const splitLyrics = lyrics.split("") 
+    const reverseLyrics = splitLyrics.reverse()
+    const result = reverseLyrics.join("")
+    console.log(result);
+}
+missyElliot(lyrics);
+
+
+// Alternate:
+
+const wordRev = (phrase) =>{
+    const splitphrase = phrase.split("") 
+    const reversephrase = splitphrase.reverse()
+    const result = reversephrase.join("")
+    console.log(result);
+}
+
+wordRev("I put my thing down flip it and reverse it")
+
